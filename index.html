@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The personal portfolio of Raghava Raj H L, an Information Science student exploring software development and technology." />
+  <meta name="theme-color" content="#0b0d12" />
+  <title>Raghava Raj H L | Information Science Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Raghava Raj H L home">
+        <span class="brand-mark">R<span>.</span></span>
+        <span class="brand-name">Raghava Raj <span>H L</span></span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span>
+      </button>
+      <nav class="nav-menu" id="nav-menu" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> INFORMATION SCIENCE STUDENT</p>
+          <h1>Learning today.<br><span class="gradient-text">Building tomorrow.</span></h1>
+          <p class="hero-description">
+            Hi, I'm <strong>Raghava Raj H L</strong> — a student exploring the world of technology,
+            programming, and software development, one step at a time.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my journey <span aria-hidden="true">↘</span></a>
+            <a class="button button-secondary" href="#contact">Get in touch</a>
+          </div>
+          <div class="hero-meta">
+            <span><span class="meta-symbol">⌘</span> Curious by nature</span>
+            <span><span class="meta-symbol">↗</span> Always learning</span>
+          </div>
+        </div>
+        <div class="hero-visual reveal" aria-label="Decorative code-inspired graphic">
+          <div class="visual-glow"></div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="code-card">
+            <div class="code-card-top">
+              <div class="window-dots"><i></i><i></i><i></i></div>
+              <span>about_me.js</span>
+              <span class="code-menu">•••</span>
+            </div>
+            <div class="code-lines" aria-hidden="true">
+              <p><span class="line-number">01</span><span class="code-purple">const</span> developer = {</p>
+              <p><span class="line-number">02</span>&nbsp;&nbsp;name: <span class="code-green">'Raghava Raj H L'</span>,</p>
+              <p><span class="line-number">03</span>&nbsp;&nbsp;role: <span class="code-green">'Student'</span>,</p>
+              <p><span class="line-number">04</span>&nbsp;&nbsp;curiosity: <span class="code-orange">Infinity</span>,</p>
+              <p><span class="line-number">05</span>&nbsp;&nbsp;learning: <span class="code-blue">true</span>,</p>
+              <p><span class="line-number">06</span>&nbsp;&nbsp;nextStep: <span class="code-green">'Build something'</span></p>
+              <p><span class="line-number">07</span>};</p>
+              <p class="code-comment"><span class="line-number">08</span>// The journey starts here.</p>
+            </div>
+            <div class="code-card-footer"><span class="footer-pulse"></span> Open to learning and collaboration</div>
+          </div>
+          <div class="floating-tag tag-top"><span>✳</span> Ideas into code</div>
+          <div class="floating-tag tag-bottom"><span>01</span> Keep exploring</div>
+        </div>
+        <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / ABOUT ME</p>
+          <h2>Curiosity is where<br>every good idea <span class="gradient-text">begins.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="large-copy">I'm an Information Science student building my foundation in computing and software development.</p>
+            <p>I'm interested in understanding how technology works, strengthening my programming skills, and turning what I learn into practical projects. This portfolio is a place to document that progress as I go.</p>
+            <p>I'm at the beginning of the journey, and I'm excited to keep learning, experimenting, and improving.</p>
+          </div>
+          <div class="about-note reveal">
+            <div class="note-icon">✦</div>
+            <p class="note-label">CURRENT MINDSET</p>
+            <p class="note-quote">“Stay curious. Learn the fundamentals. Build consistently.”</p>
+            <div class="note-line"></div>
+            <p class="note-caption">A work in progress — just like every developer.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 / WHAT I'M EXPLORING</p>
+          <h2>Growing my <span class="gradient-text">toolkit.</span></h2>
+          <p class="section-intro">A snapshot of areas I'm learning about. I'll update this section as my experience grows.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon icon-code">&lt;/&gt;</div>
+            <h3>Programming</h3>
+            <p>Building problem-solving habits and learning how to write clear, useful code.</p>
+            <div class="skill-tags"><span>Programming fundamentals</span><span>Practice</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon icon-web">◈</div>
+            <h3>Web Development</h3>
+            <p>Exploring the building blocks behind interactive websites and user experiences.</p>
+            <div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon icon-tech">⌘</div>
+            <h3>Computer Science</h3>
+            <p>Developing a stronger understanding of core concepts and how systems fit together.</p>
+            <div class="skill-tags"><span>Fundamentals</span><span>Problem solving</span></div>
+          </article>
+        </div>
+        <p class="skills-note"><span>↗</span> These are learning areas, not claims of professional proficiency.</p>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="projects-heading reveal">
+          <div class="section-heading">
+            <p class="eyebrow">03 / SELECTED WORK</p>
+            <h2>Projects & <span class="gradient-text">experiments.</span></h2>
+          </div>
+          <span class="project-count">01 — IN PROGRESS</span>
+        </div>
+        <div class="project-placeholder reveal">
+          <div class="project-art" aria-hidden="true">
+            <div class="art-grid"></div>
+            <div class="art-bracket bracket-left"></div>
+            <div class="art-bracket bracket-right"></div>
+            <div class="art-symbol">&lt;<span>/</span>&gt;</div>
+            <div class="art-orb"></div>
+          </div>
+          <div class="project-info">
+            <p class="project-status"><span></span> BUILDING MY FIRST SHOWCASE</p>
+            <h3>Something good is<br>in the works.</h3>
+            <p>I'm learning, experimenting, and preparing projects to share here. Check back as this space grows with real work, code, and lessons learned.</p>
+            <div class="project-tags"><span>Learning</span><span>Experimenting</span><span>Coming soon</span></div>
+          </div>
+          <div class="project-number">01</div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="contact-panel reveal">
+          <div class="contact-decoration decoration-one"></div>
+          <div class="contact-decoration decoration-two"></div>
+          <p class="eyebrow">04 / SAY HELLO</p>
+          <h2>Have an idea?<br>Let's <span class="gradient-text">connect.</span></h2>
+          <p class="contact-copy">I'm always glad to learn from others and connect with people who enjoy technology. Add your real contact details below when you're ready.</p>
+          <div class="contact-actions">
+            <!-- Replace the placeholder email in script.js / this link with your real email. -->
+            <a class="button button-primary" id="email-link" href="mailto:your.email@example.com">Email me <span aria-hidden="true">↗</span></a>
+            <!-- Replace # with your real profile URLs. -->
+            <a class="social-link" href="#" data-placeholder-link aria-label="GitHub profile (add your URL)">GitHub <span>↗</span></a>
+            <a class="social-link" href="#" data-placeholder-link aria-label="LinkedIn profile (add your URL)">LinkedIn <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark">R<span>.</span></span><span class="brand-name">Raghava Raj <span>H L</span></span></a>
+      <p>Designed with curiosity <span class="footer-heart">♥</span> and built with HTML, CSS & JavaScript.</p>
+      <a href="#home" class="back-top">BACK TO TOP ↑</a>
+      <p class="copyright">© <span id="year"></span> Raghava Raj H L</p>
+    </footer>
+  </div>
+</body>
+</html>
